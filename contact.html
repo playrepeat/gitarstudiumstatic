@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="#">
+	<title>Gitarrenstudium Vienna</title>
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	
+</head>
+<body>
+<div class="overlay-navigation">
+	<nav role="navigation">
+		<ul>
+			<li><a href="index.html" data-content="The beginning">Home</a></li>
+			<li><a href="about.html" data-content="Curious?">Über Mich</a></li>
+			<li><a href="videos.html" data-content="Lord of the Quazar">Videos</a></li>
+			<li><a href="contact.html" data-content="">Kontakt</a></li>
+
+		</ul>
+	</nav>
+</div>
+
+
+	<div class="container">
+		<div class="left-side">
+	  		<div class="item">
+			<h3>EMAIL</h3>
+			<a href="">gitarrenstudiumvienna@gmail.com</a>
+	  		</div>
+			<div class="item">
+				<h3>PHONE</h3>
+				<a href="">+43 6602533122</a>
+			</div>
+		
+	  		<div class="item">
+				<h3>ADDRESS</h3>
+				<a href="">Vienna</a>
+	  		</div>
+	  		<div class="item">
+				<h3>ANDERE</h3>
+				<div class="icons">
+				  <a href="https://www.youtube.com/@gaborfekete2864" class = "fa fa-youtube"></a>
+				  <a href="" class = "fa fa-instagram "></a>
+				  <a href="" class = "fa fa-facebook"></a>
+				  <a href="" class = "fa fa-whatsapp"></a>
+				 
+				</div>
+			</div>
+		</div>
+		<div class="right-side">
+        	<form id="contact-form" action="/contact.html" method="post" data-netlify="true">
+        	    <input name="yourname" type="text" class="feedback-input" placeholder="Name" required/> 
+            	<input name="youremail" type="email" class="feedback-input" placeholder="Email" required />
+            	<input name="yoursubject" type="text" class="feedback-input" placeholder="Subject" required/> 
+            	<textarea name="yourmessage" class="feedback-input" placeholder="Message" required> </textarea>
+            	<button type="submit">Senden</button>
+            </form>
+       
+      	</div>
+	</div>
+	<div class="open-overlay">
+		<span class="bar-top"></span>
+		<span class="bar-middle"></span>
+		<span class="bar-bottom"></span>
+	</div>
+
+
+<div class="footer">
+	<p id="copyright"></p>
+
+    <script>
+    	var currentYear = new Date().getFullYear();
+
+        document.getElementById("copyright").innerText = "Copyright © Fekete Gabor " + currentYear;
+    </script>
+</div>
+
+<script type="text/javascript" src="./overlay.js"></script>
+</body>
+</html>
