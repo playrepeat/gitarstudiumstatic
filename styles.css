@@ -614,20 +614,63 @@ Animation keyframes
 	border-bottom: 1px solid gold;
 }
 
-@media (max-width: 640px) {
-	nav ul li a {
-		font-size: 11px;
+@media (max-width: 768px) {
+	.info {
+	  margin-left: 20px;
+	  margin-right: 20px;
 	}
-
-	nav li a:after {
-		font-size: 0.6rem;
+  
+	.container .left-side,
+	.container .right-side {
+	  width: 100%;
+	  padding: 0 20px;
+	  text-align: left;
+	  align-items: flex-start;
 	}
-
-	.open-overlay {
-		right: 1rem;
+  
+	.intro .unterricht,
+	.intro .preise,
+	.intro .kontakt {
+	  width: 100%;
+	  padding: 0 20px;
+	  text-align: left;
 	}
-
+  
+	.home a {
+	  top: 20px;
+	  left: 20px;
+	}
+  }
+  
+  @media (max-width: 640px) {
+	.container .left-side,
+	.container .right-side,
+	.intro .unterricht,
+	.intro .preise,
+	.intro .kontakt {
+	  padding: 0 10px;
+	}
+  
+	.intro .unterricht,
+	.intro .preise,
+	.intro .kontakt {
+	  padding-bottom: 30px;
+	}
+  
+	.container .left-side .item {
+	  margin-bottom: 30px;
+	}
+  
+	nav ul li {
+	  flex-basis: 50%;
+	}
+  
 	nav li a:before {
-		width: 15px;
+	  width: 50px;
 	}
-}
+  
+	.open-overlay {
+	  right: 1rem;
+	}
+  }
+  
