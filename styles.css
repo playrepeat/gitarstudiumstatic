@@ -611,6 +611,10 @@ Animation keyframes
 	  top: 20px;
 	  left: 20px;
 	}
+
+	.footer {
+		display: none; 
+	  }
   }
   
   @media (max-width: 640px) {
@@ -643,5 +647,9 @@ Animation keyframes
 	.open-overlay {
 	  right: 1rem;
 	}
+
+	.footer {
+		display: none; 
+	  }
   }
   
