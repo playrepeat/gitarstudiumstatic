@@ -437,38 +437,9 @@ overlay
 	position: relative; /* Add relative positioning to make absolute positioning in the next step work properly */
   }
   
-  .footer {
-	position: absolute; /* Change from fixed to absolute */
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 52px;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	color: gold;
-	font-weight: 100;
-	margin-right: 20px;
-	font-family: 'Work sans';
-	z-index: 10;
-  }
+
   
-/*
-.footer {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 52px;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	color: gold;
-	font-weight:100;
-	margin-right: 20px;
-	font-family: 'Work sans';
-  }
-*/
+
 /* ====================================
 Animation keyframes
 ==================================== */
